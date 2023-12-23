@@ -1,0 +1,127 @@
+$date
+	Mon Oct 30 15:01:44 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module l10q2_tb $end
+$var wire 3 ! A [2:0] $end
+$var reg 1 " clk $end
+$var reg 1 # reset $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 3 $ A [2:0] $end
+$scope module st0 $end
+$var wire 1 % R $end
+$var wire 1 & S $end
+$var wire 1 " clk $end
+$var wire 1 ' inp $end
+$var wire 1 # reset $end
+$var reg 1 ( Q $end
+$upscope $end
+$scope module st1 $end
+$var wire 1 ) R $end
+$var wire 1 * S $end
+$var wire 1 " clk $end
+$var wire 1 + inp $end
+$var wire 1 # reset $end
+$var reg 1 , Q $end
+$upscope $end
+$scope module st2 $end
+$var wire 1 - R $end
+$var wire 1 . S $end
+$var wire 1 " clk $end
+$var wire 1 / inp $end
+$var wire 1 # reset $end
+$var reg 1 0 Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+10
+1/
+0.
+1-
+0,
+0+
+1*
+0)
+0(
+0'
+0&
+0%
+b1 $
+1#
+0"
+b1 !
+$end
+#10
+1"
+#20
+0"
+0#
+#30
+0*
+0-
+1.
+1,
+b10 !
+b10 $
+00
+1"
+#40
+0"
+#50
+1-
+1)
+0.
+b11 !
+b11 $
+10
+1"
+#60
+0"
+#70
+1*
+0-
+0)
+1&
+1.
+0,
+b0 !
+b0 $
+00
+1"
+#80
+0"
+#90
+1-
+0&
+0)
+0*
+0.
+0%
+10
+1,
+b111 !
+b111 $
+1(
+1"
+#100
+0"
+#110
+1)
+0-
+1.
+b110 !
+b110 $
+00
+1"
+#120
+0"
