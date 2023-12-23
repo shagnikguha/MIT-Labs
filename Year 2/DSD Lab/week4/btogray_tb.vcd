@@ -1,0 +1,46 @@
+$date
+	Mon Aug 21 16:16:53 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module btogray_tb $end
+$var wire 4 ! g [3:0] $end
+$var reg 4 " b [3:0] $end
+$scope module b1 $end
+$var wire 4 # b [3:0] $end
+$var reg 4 $ g [3:0] $end
+$var integer 32 % i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111111111111111111111111111111 %
+b11 $
+b10 #
+b10 "
+b11 !
+$end
+#20
+b110 !
+b110 $
+b11111111111111111111111111111111 %
+b100 "
+b100 #
+#40
+b11111111111111111111111111111111 %
+b1010 !
+b1010 $
+b1100 "
+b1100 #
+#60
+b1100 !
+b1100 $
+b11111111111111111111111111111111 %
+b1000 "
+b1000 #
+#80
